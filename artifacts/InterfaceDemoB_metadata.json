@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "methodB",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/helloep14.sol": "InterfaceDemoB"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/helloep14.sol": {
+			"keccak256": "0x3361cb0d7d5de5f669c3b808450e79f3205a3a4be9abb2e54953c282d9d3495d",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://6f9b46f4d9ca40f833c7bc98e50296b5ed70c3edf40c9e56348f56ad2f03ea6d",
+				"dweb:/ipfs/QmZrHRbzoxTMQozsoamH2ugShZCQGhUfY73jSbJXEjWCj4"
+			]
+		}
+	},
+	"version": 1
+}
