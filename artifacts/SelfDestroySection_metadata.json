@@ -1,0 +1,70 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "hello",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "kill",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/helloep22.sol": "SelfDestroySection"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/helloep22.sol": {
+			"keccak256": "0xbb489de484c12081b1f46e53f342b90ee6414529e06941a8ac83685a6b8b6be1",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://4f68bf2c7002724a7ed67aef89ff662181ba1a107a2a3122a1d85414e00c8a2d",
+				"dweb:/ipfs/Qme9b8LH35YyAcizEzodnpFJroyDNrBNNwWHeFp2RxBQ6e"
+			]
+		}
+	},
+	"version": 1
+}

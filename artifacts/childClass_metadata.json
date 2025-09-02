@@ -14,12 +14,38 @@
 					},
 					{
 						"internalType": "string",
-						"name": "_parentName",
+						"name": "_name",
 						"type": "string"
 					}
 				],
 				"stateMutability": "nonpayable",
 				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "getChildId",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getChildName",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
 			},
 			{
 				"inputs": [],
@@ -74,7 +100,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/helloep14_2.sol": "ParentClass"
+			"contracts/helloep14_2.sol": "childClass"
 		},
 		"evmVersion": "prague",
 		"libraries": {},

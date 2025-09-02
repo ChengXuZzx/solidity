@@ -8,13 +8,8 @@
 			{
 				"inputs": [
 					{
-						"internalType": "uint256",
-						"name": "_id",
-						"type": "uint256"
-					},
-					{
 						"internalType": "string",
-						"name": "_parentName",
+						"name": "_name",
 						"type": "string"
 					}
 				],
@@ -23,20 +18,7 @@
 			},
 			{
 				"inputs": [],
-				"name": "getParentId",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "getParentName",
+				"name": "getname",
 				"outputs": [
 					{
 						"internalType": "string",
@@ -49,12 +31,12 @@
 			},
 			{
 				"inputs": [],
-				"name": "parentId",
+				"name": "name",
 				"outputs": [
 					{
-						"internalType": "uint256",
+						"internalType": "string",
 						"name": "",
-						"type": "uint256"
+						"type": "string"
 					}
 				],
 				"stateMutability": "view",
@@ -74,7 +56,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/helloep14_2.sol": "ParentClass"
+			"contracts/helloep15.sol": "Goods"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -88,12 +70,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/helloep14_2.sol": {
-			"keccak256": "0x0e93ddf124d0906d3ded61d2ef5d1ee9cee40249314127ca3a96056f6d0fa453",
+		"contracts/helloep15.sol": {
+			"keccak256": "0xc14485f0169ab822d8a75cd9d229ba1d9d195cf60a4ba79bdb156750c82ea0a7",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://77a24ac55d600cc6a44fcf47a339385d3dca99e2c54ec26b940a45082ccd6469",
-				"dweb:/ipfs/QmSqFVS8be6knSHugie22YLmv2yyBwL5enPmNqMX8nR9zG"
+				"bzz-raw://35d191b0ccd26029ae642740ce81cd25374f06110afda99645dbb12fc37ac2a5",
+				"dweb:/ipfs/QmQFQi6vfsozAWTbSU2mSp6er88MsPCexvusit8BGDGzS1"
 			]
 		}
 	},
