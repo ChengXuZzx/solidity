@@ -6,30 +6,51 @@
 	"output": {
 		"abi": [
 			{
+				"stateMutability": "payable",
+				"type": "fallback"
+			},
+			{
 				"inputs": [],
-				"name": "getWork",
+				"name": "getBlance",
 				"outputs": [
 					{
-						"internalType": "bool",
+						"internalType": "uint256",
 						"name": "",
-						"type": "bool"
+						"type": "uint256"
 					}
 				],
-				"stateMutability": "nonpayable",
+				"stateMutability": "view",
 				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "runWork",
+				"name": "getName",
 				"outputs": [
 					{
-						"internalType": "bool",
+						"internalType": "string",
 						"name": "",
-						"type": "bool"
+						"type": "string"
 					}
 				],
-				"stateMutability": "nonpayable",
+				"stateMutability": "view",
 				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					}
+				],
+				"name": "setName",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
 			}
 		],
 		"devdoc": {
@@ -45,7 +66,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/helloep13.sol": "User"
+			"contracts/helloep26.sol": "User"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -59,12 +80,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/helloep13.sol": {
-			"keccak256": "0xe223d537b60dad2db52bb05e87a6fd8196d8cf7d3e537a1d2e024036cbd5220e",
+		"contracts/helloep26.sol": {
+			"keccak256": "0xb8e9460470de371f286770331fb32e6a27c171eac714483c07d83670a8f10f0e",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://b253674afcb4b9511a0174cf611c234ddecc23128025add419bc74f5b34c0c82",
-				"dweb:/ipfs/QmXoEAExgusrfUz9Lqb36MVqnjpfYdxgnsaias9q43ko8S"
+				"bzz-raw://f7f89af4b55659fe96122b8ae41be6e767e156ed01bd418455aa0bf3b0100f54",
+				"dweb:/ipfs/QmNa9buw5yJiXchCbXAG1dsWjriGBLRgDSEv5rtTjedfPF"
 			]
 		}
 	},
