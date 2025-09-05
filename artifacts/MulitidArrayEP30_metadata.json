@@ -1,0 +1,73 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "fixedArray",
+				"outputs": [
+					{
+						"internalType": "uint256[2][3]",
+						"name": "v",
+						"type": "uint256[2][3]"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "normArray",
+				"outputs": [
+					{
+						"internalType": "uint256[][]",
+						"name": "",
+						"type": "uint256[][]"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"notice": "多维数组",
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/helloep30.sol": "MulitidArrayEP30"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/helloep30.sol": {
+			"keccak256": "0x49ec763af51b693afd7e7801004f37d8bd45558f30e5e954bcfcef107cf2e5db",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://01d8c3139b6d93a26ce4420f7e3d169fba6f0fada7da8bbb81e36f143214aa0b",
+				"dweb:/ipfs/Qmf54oBiUK9ATUGr6zQYSDjv3DsSzZ7SMPqRbvH8i4sr5i"
+			]
+		}
+	},
+	"version": 1
+}

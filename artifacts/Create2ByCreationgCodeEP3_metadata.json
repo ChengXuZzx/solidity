@@ -1,0 +1,136 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "callStudentName",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_salt",
+						"type": "string"
+					}
+				],
+				"name": "create2Student",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "tokenAddr",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getCreateCode",
+				"outputs": [
+					{
+						"internalType": "bytes",
+						"name": "",
+						"type": "bytes"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_salt",
+						"type": "string"
+					}
+				],
+				"name": "getaddress",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_salt",
+						"type": "string"
+					}
+				],
+				"name": "makeStudent",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "student",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/helloep31.sol": "Create2ByCreationgCodeEP3"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/helloep31.sol": {
+			"keccak256": "0xc7e3174c16b015e6e3c96edef0012d85ac7d56ff0d44776eb8f1777a50cce17d",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://dc23982c7ba00460d7662a2f9d65b61b4de4b8f3ecc4bb012118b913e1931e43",
+				"dweb:/ipfs/QmQZ1QQT4bSpwbqEgDgWWUtjrXxvJyFrAwrNVtQFa8yGLZ"
+			]
+		}
+	},
+	"version": 1
+}
